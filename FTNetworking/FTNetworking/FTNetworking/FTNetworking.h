@@ -7,7 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FTSessionRequest.h"
 
 @interface FTNetworking : NSObject
+
+#pragma mark - GET请求
+
+/**
+ 发起GET请求，不带Header
+
+ @param Host 主机地址
+ @param completed 成功回调
+ @param failed 失败回调
+ */
++ (void)getWithHost:(NSString *)Host completion:(FTNetCompleteBlock)completed failed:(FTNetFailedBlock)failed;
 
 @end

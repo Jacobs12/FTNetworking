@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3B98D7725E889858B786AF /* libPods-FTNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4255298C10B8FB9AA5A449A /* libPods-FTNetworking.a */; };
 		A3E857AD214FA37200648B05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E857AC214FA37200648B05 /* AppDelegate.m */; };
 		A3E857B0214FA37200648B05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E857AF214FA37200648B05 /* ViewController.m */; };
 		A3E857B3214FA37200648B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E857B1214FA37200648B05 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		A3E857C5214FA37700648B05 /* FTNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E857C4214FA37700648B05 /* FTNetworkingTests.m */; };
 		A3E857D0214FA37700648B05 /* FTNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E857CF214FA37700648B05 /* FTNetworkingUITests.m */; };
 		A3E857E0214FA3E600648B05 /* FTNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E857DF214FA3E600648B05 /* FTNetworking.m */; };
+		A3E857E4214FA51100648B05 /* MYConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E857E3214FA51100648B05 /* MYConnection.m */; };
+		A3E857E8214FA77C00648B05 /* FTSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E857E7214FA77C00648B05 /* FTSessionRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B464F19725FFD4132873873 /* Pods-FTNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FTNetworking/Pods-FTNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2AE4FBB03511ABF7FF8548 /* Pods-FTNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTNetworking/Pods-FTNetworking.release.xcconfig"; sourceTree = "<group>"; };
 		A3E857A8214FA37200648B05 /* FTNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E857AB214FA37200648B05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3E857AC214FA37200648B05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,11 @@
 		A3E857D1214FA37700648B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3E857DE214FA3E600648B05 /* FTNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTNetworking.h; sourceTree = "<group>"; };
 		A3E857DF214FA3E600648B05 /* FTNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTNetworking.m; sourceTree = "<group>"; };
+		A3E857E2214FA51100648B05 /* MYConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYConnection.h; sourceTree = "<group>"; };
+		A3E857E3214FA51100648B05 /* MYConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYConnection.m; sourceTree = "<group>"; };
+		A3E857E6214FA77C00648B05 /* FTSessionRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSessionRequest.h; sourceTree = "<group>"; };
+		A3E857E7214FA77C00648B05 /* FTSessionRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSessionRequest.m; sourceTree = "<group>"; };
+		E4255298C10B8FB9AA5A449A /* libPods-FTNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FTNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3B98D7725E889858B786AF /* libPods-FTNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4455038F03D5EAEE94ED8C36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4255298C10B8FB9AA5A449A /* libPods-FTNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93EDF9CE7CD60F5A57891D9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B464F19725FFD4132873873 /* Pods-FTNetworking.debug.xcconfig */,
+				9D2AE4FBB03511ABF7FF8548 /* Pods-FTNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A3E8579F214FA37200648B05 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,8 @@
 				A3E857C3214FA37700648B05 /* FTNetworkingTests */,
 				A3E857CE214FA37700648B05 /* FTNetworkingUITests */,
 				A3E857A9214FA37200648B05 /* Products */,
+				93EDF9CE7CD60F5A57891D9A /* Pods */,
+				4455038F03D5EAEE94ED8C36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +171,28 @@
 			children = (
 				A3E857DE214FA3E600648B05 /* FTNetworking.h */,
 				A3E857DF214FA3E600648B05 /* FTNetworking.m */,
+				A3E857E2214FA51100648B05 /* MYConnection.h */,
+				A3E857E3214FA51100648B05 /* MYConnection.m */,
+				A3E857E5214FA71600648B05 /* Request */,
+				A3E857E1214FA45300648B05 /* Cache */,
 			);
 			path = FTNetworking;
+			sourceTree = "<group>";
+		};
+		A3E857E1214FA45300648B05 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		A3E857E5214FA71600648B05 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A3E857E6214FA77C00648B05 /* FTSessionRequest.h */,
+				A3E857E7214FA77C00648B05 /* FTSessionRequest.m */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3E857D4214FA37700648B05 /* Build configuration list for PBXNativeTarget "FTNetworking" */;
 			buildPhases = (
+				73F9A4FA3BDFBD96AFA5604C /* [CP] Check Pods Manifest.lock */,
 				A3E857A4214FA37200648B05 /* Sources */,
 				A3E857A5214FA37200648B05 /* Frameworks */,
 				A3E857A6214FA37200648B05 /* Resources */,
@@ -270,6 +321,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73F9A4FA3BDFBD96AFA5604C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FTNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3E857A4214FA37200648B05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,7 +349,9 @@
 			files = (
 				A3E857B0214FA37200648B05 /* ViewController.m in Sources */,
 				A3E857BB214FA37700648B05 /* main.m in Sources */,
+				A3E857E8214FA77C00648B05 /* FTSessionRequest.m in Sources */,
 				A3E857AD214FA37200648B05 /* AppDelegate.m in Sources */,
+				A3E857E4214FA51100648B05 /* MYConnection.m in Sources */,
 				A3E857E0214FA3E600648B05 /* FTNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +519,7 @@
 		};
 		A3E857D5214FA37700648B05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B464F19725FFD4132873873 /* Pods-FTNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +538,7 @@
 		};
 		A3E857D6214FA37700648B05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2AE4FBB03511ABF7FF8548 /* Pods-FTNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
